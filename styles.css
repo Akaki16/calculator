@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: rgb(98, 111, 134);
+}
+
+#calculator {
+    transform: translateY(100px);
+    width: 470px;
+    height: auto;
+    background: rgb(126, 124, 124);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#calculator .inputs {
+    display: flex;
+    justify-content: center;
+}
+
+#calculator .inputs input {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    display: none;
+    text-align: center;
+    background: transparent;
+    color: #fff;
+}
+
+#calculator #num-value {
+    width: 100%;
+    height: 60px;
+    font-size: 19px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+#calculator .keys {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#calculator .keys .top-btn {
+    margin: 10px;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#calculator .keys .top-btn:hover {
+    opacity: 0.8;
+}
+
+#calculator .keys #clear-btn {
+    background: rgb(129, 77, 77);
+    color: #fff;
+}
+
+#calculator .keys #delete-btn {
+    background: rgb(113, 102, 160);
+    color: #fff;
+}
+
+#calculator .keys button {
+    width: 90px;
+    padding: 10px;
+    font-size: 19px;
+    margin: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 636px) {
+    #calculator {
+        position: relative;
+        bottom: 40px;
+        width: 90%;
+    }
+
+    #calculator .inputs input {
+        width: 50px;
+    }
+}
