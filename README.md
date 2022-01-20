@@ -6,6 +6,8 @@ This web based calculator is created with Vanilla JavaScript
 
 You can perform basic operations like: `addition` `subtraction` `division` and `multiplication`
 
+[live demo](https://akaki16.github.io/calculator/)
+
 ### Running documentation
 
 Open terminal in your operating system
